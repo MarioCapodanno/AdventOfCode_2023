@@ -3,7 +3,7 @@ import java.nio.file.Paths;
 import java.nio.file.Files;
 public class Main {
 
-    public static void main(String[] args) {
+    public static void P1(String[] args) {
         try {
             // Replace "input.txt" with the actual path to your input file
             String input = Files.readString(Paths.get("/home/azur/IdeaProjects/AOC_Day2P1/src/input.txt"));
